@@ -11,9 +11,6 @@
         33623938343863643664633162333965653835623230336330616636333862653631
 
   tasks:
-  - name: Do nothing
-    shell: echo testing
-
   - name: debug
     debug: 
       msg: "secret is: {{secret}}"
